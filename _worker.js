@@ -2,13 +2,13 @@ import { connect } from "cloudflare:sockets";
 
 // Variables
 const rootDomain = "ultrsgp.my.id"; // Ganti dengan domain utama kalian
-const serviceName = "fauzi"; // Ganti dengan nama workers kalian
+const serviceName = "telkomzom"; // Ganti dengan nama workers kalian
 const apiKey = "d2c5d457c03ac2fc42cdc0c0a0582e3314060"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "mbahkoid13@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "0a69351df41c7caca71a2b0d8290d4b3"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "10dc8abcc162075b34a8c6ee7df26588"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 let cachedProxyList = [];
 
 // Constant
